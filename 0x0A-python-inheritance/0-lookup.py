@@ -8,6 +8,6 @@ def lookup(obj):
     """
     Function that returns the list of available attributes and methods of an object
     Args:
-    - obj is the object to look into
+        - obj is the object to look into
     """
     return dir(obj)
